@@ -277,18 +277,6 @@ static void dispatchOnMessageQueue(dispatch_block_t block, bool synchronous)
 {
     if (firstTime)
     {
-        if (animated && [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
-            [self _createInitialSnapshot];
-        else
-        {
-            for (TGMessageModernConversationItem *item in _items)
-            {
-                [self _updateImportantMediaStatusDataInplace:item];
-            }
-            
-            TGModernConversationController *controller = _controller;
-            [controller setInitialSnapshot:NULL backgroundView:nil viewStorage:_tempViewStorage];
-        }
         
         [TGModernConversationCompanion dispatchOnMessageQueue:^
         {
