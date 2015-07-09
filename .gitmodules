@@ -1,0 +1,3 @@
+[submodule "Telegraph/thirdparty/pop"]
+	path = Telegraph/thirdparty/pop
+	url = https://github.com/facebook/pop

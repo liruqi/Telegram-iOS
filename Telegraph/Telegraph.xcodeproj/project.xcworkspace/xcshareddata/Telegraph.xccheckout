@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>434B2FF1-4AD6-463C-8DD5-2C570944FB50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Telegraph</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>A50836191016C2E86DFE2E13535A22A4A756AE00</key>
+		<string>https://github.com/liruqi/Telegram-iOS</string>
 		<key>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</key>
-		<string>https://github.com/facebook/pop.git</string>
+		<string>https://github.com/facebook/pop</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Telegraph/Telegraph.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>A50836191016C2E86DFE2E13535A22A4A756AE00</key>
+		<string>../../..</string>
 		<key>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</key>
-		<string>pop/</string>
+		<string>../../..Telegraph/thirdparty/pop/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/facebook/pop.git</string>
+	<string>https://github.com/liruqi/Telegram-iOS</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</string>
+	<string>A50836191016C2E86DFE2E13535A22A4A756AE00</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>pop</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A50836191016C2E86DFE2E13535A22A4A756AE00</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Telegram-iOS</string>
 		</dict>
 	</array>
 </dict>

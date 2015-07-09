@@ -1696,6 +1696,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5593DA0C1B4E74CF00E100AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A3F2F4195CA9EB009E0ACD /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B6BE74819FFD3B900762101;
+			remoteInfo = "pop-ios-framework";
+		};
 		D05A84CB18AFE34F007F1076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D05A84C318AFE34F007F1076 /* MtProtoKit.xcodeproj */;
@@ -9398,6 +9405,7 @@
 			isa = PBXGroup;
 			children = (
 				D0A3F2FC195CA9EC009E0ACD /* libpop.a */,
+				5593DA0D1B4E74CF00E100AF /* pop.framework */,
 				D0A3F2FE195CA9EC009E0ACD /* pop.framework */,
 				D0A3F300195CA9EC009E0ACD /* pop-tests.octest */,
 				D0A3F302195CA9EC009E0ACD /* pop-tests-osx.octest */,
@@ -10435,6 +10443,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5593DA0D1B4E74CF00E100AF /* pop.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = pop.framework;
+			remoteRef = 5593DA0C1B4E74CF00E100AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		D05A84CC18AFE34F007F1076 /* MtProtoKit iOS.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework.static;
@@ -10480,14 +10495,14 @@
 		D0A3F300195CA9EC009E0ACD /* pop-tests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "pop-tests.octest";
+			path = "pop-tests.xctest";
 			remoteRef = D0A3F2FF195CA9EC009E0ACD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D0A3F302195CA9EC009E0ACD /* pop-tests-osx.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "pop-tests-osx.octest";
+			path = "pop-tests.xctest";
 			remoteRef = D0A3F301195CA9EC009E0ACD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -12327,7 +12342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -12365,7 +12380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -12399,7 +12414,7 @@
 			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
@@ -12471,7 +12486,7 @@
 			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
