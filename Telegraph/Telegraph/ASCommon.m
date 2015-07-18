@@ -1,4 +1,6 @@
 #import "ASCommon.h"
+#include "time.h"
+#include "stdlib.h"
 
 static dispatch_queue_t TGLogQueue()
 {
@@ -67,36 +69,7 @@ void TGLogToFilev(NSString *format, va_list args)
 {
     NSString *message = [[NSString alloc] initWithFormat:format arguments:args];
 
-    NSLog(@"%@", message);
-    
-    dispatch_async(TGLogQueue(), ^
-    {
-        NSFileHandle *output = TGLogFileHandle();
-        
-        if (output != nil)
-        {
-            time_t rawtime;
-            struct tm timeinfo;
-            char buffer[64];
-            time(&rawtime);
-            localtime_r(&rawtime, &timeinfo);
-            struct timeval curTime;
-            gettimeofday(&curTime, NULL);
-            int milliseconds = curTime.tv_usec / 1000;
-            strftime(buffer, 64, "%Y-%m-%d %H:%M", &timeinfo);
-            char fullBuffer[128] = { 0 };
-            snprintf(fullBuffer, 128, "%s:%2d.%.3d ", buffer, timeinfo.tm_sec, milliseconds);
-            
-            [output writeData:[[[NSString alloc] initWithCString:fullBuffer encoding:NSASCIIStringEncoding] dataUsingEncoding:NSUTF8StringEncoding]];
-            
-            [output writeData:[message dataUsingEncoding:NSUTF8StringEncoding]];
-            
-            static NSData *returnData = nil;
-            if (returnData == nil)
-                returnData = [@"\n" dataUsingEncoding:NSUTF8StringEncoding];
-            [output writeData:returnData];
-        }
-    });
+    NSLog(@"TGLogToFilev: %@", message);
 }
 
 NSArray *TGGetLogFilePaths()

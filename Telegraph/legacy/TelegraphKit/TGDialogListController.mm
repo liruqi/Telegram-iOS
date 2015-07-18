@@ -981,9 +981,9 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
 
 - (void)prepareCell:(TGDialogListCell *)cell forConversation:(TGConversation *)conversation animated:(bool)animated isSearch:(bool)isSearch
 {
-    if (cell.reuseTag != (int)conversation || cell.conversationId != conversation.conversationId)
+    if (cell.reuseTag != (size_t)conversation || cell.conversationId != conversation.conversationId)
     {
-        cell.reuseTag = (int)conversation;
+        cell.reuseTag = (size_t)conversation;
         cell.conversationId = conversation.conversationId;
     
         cell.date = conversation.date;
@@ -1133,7 +1133,7 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
                 if (cell == nil)
                 {
                     cell = [[TGDialogListCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MessageCellIdentifier assetsSource:[_dialogListCompanion dialogListCellAssetsSource]];
-                    cell.watcherHandle = _actionHandle;
+                    // cell.watcherHandle = _actionHandle;
                     cell.enableEditing = ![_dialogListCompanion forwardMode] && !_dialogListCompanion.privacyMode;
                 }
             }
@@ -1252,7 +1252,7 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
                 if (cell == nil)
                 {
                     cell = [[TGDialogListCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MessageCellIdentifier assetsSource:[_dialogListCompanion dialogListCellAssetsSource]];
-                    cell.watcherHandle = _actionHandle;
+                    // cell.watcherHandle = _actionHandle;
                     cell.enableEditing = false;
                 }
             }

@@ -192,13 +192,13 @@
     }
     else
     {
-        if ([performActions[@"forwardMessages"] count] != 0)
+        if ([(NSArray*)performActions[@"forwardMessages"] count] != 0)
             [(TGGenericModernConversationCompanion *)conversationController.companion standaloneForwardMessages:performActions[@"forwardMessages"]];
         
-        if ([performActions[@"sendMessages"] count] != 0)
+        if ([(NSArray*)performActions[@"sendMessages"] count] != 0)
             [(TGGenericModernConversationCompanion *)conversationController.companion standaloneSendMessages:performActions[@"sendMessages"]];
         
-        if ([performActions[@"sendFiles"] count] != 0)
+        if ([(NSArray*)performActions[@"sendFiles"] count] != 0)
             [(TGGenericModernConversationCompanion *)conversationController.companion standaloneSendFiles:performActions[@"sendFiles"]];
         
         if (performActions[@"text"] != nil)

@@ -161,7 +161,7 @@ static volatile OSSpinLock audioPositionLock = OS_SPINLOCK_INIT;
 
 static OSStatus TGOpusAudioPlayerCallback(void *inRefCon, __unused AudioUnitRenderActionFlags *ioActionFlags, __unused const AudioTimeStamp *inTimeStamp, __unused UInt32 inBusNumber, __unused UInt32 inNumberFrames, AudioBufferList *ioData)
 {
-    int playerId = (int)inRefCon;
+    int playerId = (size_t)inRefCon;
     
     TG_SYNCHRONIZED_BEGIN(filledBuffersLock);
     
