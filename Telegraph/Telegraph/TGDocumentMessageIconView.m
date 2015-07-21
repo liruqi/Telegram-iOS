@@ -17,7 +17,6 @@ static const CGFloat circleDiameter = 50.0f;
     TGModernButton *_buttonView;
     TGMessageImageViewOverlayView *_overlayView;
     
-    CGFloat _progress;
 }
 
 @property (nonatomic, strong) NSString *viewIdentifier;

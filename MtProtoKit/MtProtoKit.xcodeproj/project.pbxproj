@@ -101,17 +101,8 @@
 		D0503ADE18B029480074C3FE /* MTInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D0503ADC18B029480074C3FE /* MTInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0503ADF18B029480074C3FE /* MTInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D0503ADD18B029480074C3FE /* MTInputStream.m */; };
 		D05A831818AFB3F9007F1076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A831718AFB3F9007F1076 /* Foundation.framework */; };
-		D05A832918AFB3F9007F1076 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A832818AFB3F9007F1076 /* XCTest.framework */; };
-		D05A832A18AFB3F9007F1076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A831718AFB3F9007F1076 /* Foundation.framework */; };
-		D05A832C18AFB3F9007F1076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A832B18AFB3F9007F1076 /* UIKit.framework */; };
-		D05A833118AFB3F9007F1076 /* MtProtoKit iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A831418AFB3F9007F1076 /* MtProtoKit iOS.framework */; };
-		D05A833718AFB3F9007F1076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05A833518AFB3F9007F1076 /* InfoPlist.strings */; };
-		D05A833918AFB3F9007F1076 /* MtProtoKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05A833818AFB3F9007F1076 /* MtProtoKitTests.m */; };
 		D05A834918AFB40C007F1076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A834818AFB40C007F1076 /* Cocoa.framework */; };
 		D05A835318AFB40C007F1076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05A835118AFB40C007F1076 /* InfoPlist.strings */; };
-		D05A835D18AFB40C007F1076 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A832818AFB3F9007F1076 /* XCTest.framework */; };
-		D05A835E18AFB40C007F1076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A834818AFB40C007F1076 /* Cocoa.framework */; };
-		D05A836118AFB40C007F1076 /* MTProtoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A834718AFB40C007F1076 /* MTProtoKit.framework */; };
 		D05A83E718AFB75B007F1076 /* MTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D05A839C18AFB75B007F1076 /* MTContext.m */; };
 		D05A83E818AFB75B007F1076 /* MTDatacenterTransferAuthAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D05A839D18AFB75B007F1076 /* MTDatacenterTransferAuthAction.m */; };
 		D05A83E918AFB75B007F1076 /* MTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D05A839E18AFB75B007F1076 /* MTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -306,32 +297,7 @@
 		D063A3B618B1650F00C65116 /* MTHttpWorkerBehaviour.h in Headers */ = {isa = PBXBuildFile; fileRef = D063A3AB18B1650F00C65116 /* MTHttpWorkerBehaviour.h */; };
 		D063A3B718B1650F00C65116 /* MTHttpWorkerBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = D063A3AC18B1650F00C65116 /* MTHttpWorkerBehaviour.m */; };
 		D063A3B818B1650F00C65116 /* MTHttpWorkerBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = D063A3AC18B1650F00C65116 /* MTHttpWorkerBehaviour.m */; };
-		D0A44E4E18B24A6000B64FC6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A44E4D18B24A6000B64FC6 /* libcrypto.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D05A832D18AFB3F9007F1076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05A830A18AFB3F9007F1076 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D05A831318AFB3F9007F1076;
-			remoteInfo = MtProtoKit;
-		};
-		D05A832F18AFB3F9007F1076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05A830A18AFB3F9007F1076 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D05A831318AFB3F9007F1076;
-			remoteInfo = MtProtoKit;
-		};
-		D05A835F18AFB40C007F1076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05A830A18AFB3F9007F1076 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D05A834618AFB40C007F1076;
-			remoteInfo = MtProtoKitOSX;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9389BC5918DA2BD300F9C1A6 /* MTDiscoverTransportSchemeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTDiscoverTransportSchemeAction.h; path = MtProtoKit/MTDiscoverTransportSchemeAction.h; sourceTree = "<group>"; };
@@ -422,7 +388,6 @@
 		D0503ADD18B029480074C3FE /* MTInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTInputStream.m; path = MTProtoKit/MTInputStream.m; sourceTree = "<group>"; };
 		D05A831418AFB3F9007F1076 /* MtProtoKit iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = "MtProtoKit iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05A831718AFB3F9007F1076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D05A832718AFB3F9007F1076 /* MtProtoKit iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MtProtoKit iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05A832818AFB3F9007F1076 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D05A832B18AFB3F9007F1076 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D05A833418AFB3F9007F1076 /* MtProtoKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MtProtoKitTests-Info.plist"; sourceTree = "<group>"; };
@@ -436,7 +401,6 @@
 		D05A835018AFB40C007F1076 /* MtProtoKitOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MtProtoKitOSX-Info.plist"; sourceTree = "<group>"; };
 		D05A835218AFB40C007F1076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D05A835418AFB40C007F1076 /* MtProtoKitOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MtProtoKitOSX-Prefix.pch"; sourceTree = "<group>"; };
-		D05A835C18AFB40C007F1076 /* MtProtoKit OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MtProtoKit OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05A839C18AFB75B007F1076 /* MTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTContext.m; path = MTProtoKit/MTContext.m; sourceTree = "<group>"; };
 		D05A839D18AFB75B007F1076 /* MTDatacenterTransferAuthAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTDatacenterTransferAuthAction.m; path = MTProtoKit/MTDatacenterTransferAuthAction.m; sourceTree = "<group>"; };
 		D05A839E18AFB75B007F1076 /* MTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTContext.h; path = MTProtoKit/MTContext.h; sourceTree = "<group>"; };
@@ -534,7 +498,6 @@
 		D063A3AA18B1650F00C65116 /* MTHttpWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTHttpWorker.m; path = MTProtoKit/MTHttpWorker.m; sourceTree = "<group>"; };
 		D063A3AB18B1650F00C65116 /* MTHttpWorkerBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTHttpWorkerBehaviour.h; path = MTProtoKit/MTHttpWorkerBehaviour.h; sourceTree = "<group>"; };
 		D063A3AC18B1650F00C65116 /* MTHttpWorkerBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTHttpWorkerBehaviour.m; path = MTProtoKit/MTHttpWorkerBehaviour.m; sourceTree = "<group>"; };
-		D0A44E4D18B24A6000B64FC6 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,34 +510,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05A832418AFB3F9007F1076 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05A832918AFB3F9007F1076 /* XCTest.framework in Frameworks */,
-				D05A833118AFB3F9007F1076 /* MtProtoKit iOS.framework in Frameworks */,
-				D05A832C18AFB3F9007F1076 /* UIKit.framework in Frameworks */,
-				D05A832A18AFB3F9007F1076 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D05A834318AFB40C007F1076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D063A2FA18B14AB500C65116 /* libcrypto.dylib in Frameworks */,
 				D05A834918AFB40C007F1076 /* Cocoa.framework in Frameworks */,
-				D0A44E4E18B24A6000B64FC6 /* libcrypto.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D05A835918AFB40C007F1076 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05A835E18AFB40C007F1076 /* Cocoa.framework in Frameworks */,
-				D05A836118AFB40C007F1076 /* MTProtoKit.framework in Frameworks */,
-				D05A835D18AFB40C007F1076 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +536,6 @@
 		D0254C2918B103D4009452AA /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				D0A44E4C18B24A6000B64FC6 /* OSX */,
 				D063A2F618B14A9400C65116 /* iOS */,
 				D0254C2B18B103D4009452AA /* openssl */,
 			);
@@ -701,9 +641,7 @@
 			isa = PBXGroup;
 			children = (
 				D05A831418AFB3F9007F1076 /* MtProtoKit iOS.framework */,
-				D05A832718AFB3F9007F1076 /* MtProtoKit iOS Tests.xctest */,
 				D05A834718AFB40C007F1076 /* MTProtoKit.framework */,
-				D05A835C18AFB40C007F1076 /* MtProtoKit OSX Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1057,14 +995,6 @@
 			path = MtProtoKitiOS/en.lproj;
 			sourceTree = SOURCE_ROOT;
 		};
-		D0A44E4C18B24A6000B64FC6 /* OSX */ = {
-			isa = PBXGroup;
-			children = (
-				D0A44E4D18B24A6000B64FC6 /* libcrypto.a */,
-			);
-			path = OSX;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1288,25 +1218,6 @@
 			productReference = D05A831418AFB3F9007F1076 /* MtProtoKit iOS.framework */;
 			productType = "com.apple.product-type.framework.static";
 		};
-		D05A832618AFB3F9007F1076 /* MtProtoKit iOS Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D05A833F18AFB3F9007F1076 /* Build configuration list for PBXNativeTarget "MtProtoKit iOS Tests" */;
-			buildPhases = (
-				D05A832318AFB3F9007F1076 /* Sources */,
-				D05A832418AFB3F9007F1076 /* Frameworks */,
-				D05A832518AFB3F9007F1076 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D05A832E18AFB3F9007F1076 /* PBXTargetDependency */,
-				D05A833018AFB3F9007F1076 /* PBXTargetDependency */,
-			);
-			name = "MtProtoKit iOS Tests";
-			productName = MtProtoKitTests;
-			productReference = D05A832718AFB3F9007F1076 /* MtProtoKit iOS Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D05A834618AFB40C007F1076 /* MtProtoKit OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D05A836A18AFB40C007F1076 /* Build configuration list for PBXNativeTarget "MtProtoKit OSX" */;
@@ -1325,24 +1236,6 @@
 			productReference = D05A834718AFB40C007F1076 /* MTProtoKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D05A835B18AFB40C007F1076 /* MtProtoKit OSX Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D05A836D18AFB40C007F1076 /* Build configuration list for PBXNativeTarget "MtProtoKit OSX Tests" */;
-			buildPhases = (
-				D05A835818AFB40C007F1076 /* Sources */,
-				D05A835918AFB40C007F1076 /* Frameworks */,
-				D05A835A18AFB40C007F1076 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D05A836018AFB40C007F1076 /* PBXTargetDependency */,
-			);
-			name = "MtProtoKit OSX Tests";
-			productName = MtProtoKitOSXTests;
-			productReference = D05A835C18AFB40C007F1076 /* MtProtoKit OSX Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1351,14 +1244,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Telegram;
-				TargetAttributes = {
-					D05A832618AFB3F9007F1076 = {
-						TestTargetID = D05A831318AFB3F9007F1076;
-					};
-					D05A835B18AFB40C007F1076 = {
-						TestTargetID = D05A831318AFB3F9007F1076;
-					};
-				};
 			};
 			buildConfigurationList = D05A830D18AFB3F9007F1076 /* Build configuration list for PBXProject "MtProtoKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1373,9 +1258,7 @@
 			projectRoot = "";
 			targets = (
 				D05A831318AFB3F9007F1076 /* MtProtoKit iOS */,
-				D05A832618AFB3F9007F1076 /* MtProtoKit iOS Tests */,
 				D05A834618AFB40C007F1076 /* MtProtoKit OSX */,
-				D05A835B18AFB40C007F1076 /* MtProtoKit OSX Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1390,26 +1273,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05A832518AFB3F9007F1076 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05A833718AFB3F9007F1076 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D05A834518AFB40C007F1076 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D05A835318AFB40C007F1076 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D05A835A18AFB40C007F1076 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1472,14 +1340,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05A832318AFB3F9007F1076 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05A833918AFB3F9007F1076 /* MtProtoKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D05A834218AFB40C007F1076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1536,32 +1396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05A835818AFB40C007F1076 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D05A832E18AFB3F9007F1076 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D05A831318AFB3F9007F1076 /* MtProtoKit iOS */;
-			targetProxy = D05A832D18AFB3F9007F1076 /* PBXContainerItemProxy */;
-		};
-		D05A833018AFB3F9007F1076 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D05A831318AFB3F9007F1076 /* MtProtoKit iOS */;
-			targetProxy = D05A832F18AFB3F9007F1076 /* PBXContainerItemProxy */;
-		};
-		D05A836018AFB40C007F1076 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D05A834618AFB40C007F1076 /* MtProtoKit OSX */;
-			targetProxy = D05A835F18AFB40C007F1076 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D05A833518AFB3F9007F1076 /* InfoPlist.strings */ = {
@@ -1715,46 +1550,6 @@
 			};
 			name = Release;
 		};
-		D05A834018AFB3F9007F1076 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MtProtoKit iOS.framework/Versions/A/MtProtoKit iOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MtProtoKit/MtProtoKit-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MtProtoKitTests/MtProtoKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D05A834118AFB3F9007F1076 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MtProtoKit iOS.framework/Versions/A/MtProtoKit iOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MtProtoKit/MtProtoKit-Prefix.pch";
-				INFOPLIST_FILE = "MtProtoKitTests/MtProtoKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 		D05A836B18AFB40C007F1076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1828,53 +1623,6 @@
 			};
 			name = Release;
 		};
-		D05A836E18AFB40C007F1076 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MtProtoKit iOS.framework/Versions/A/MtProtoKit iOS";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MtProtoKitOSX/MtProtoKitOSX-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MtProtoKitOSXTests/MtProtoKitOSXTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D05A836F18AFB40C007F1076 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MtProtoKit iOS.framework/Versions/A/MtProtoKit iOS";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MtProtoKitOSX/MtProtoKitOSX-Prefix.pch";
-				INFOPLIST_FILE = "MtProtoKitOSXTests/MtProtoKitOSXTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1896,29 +1644,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D05A833F18AFB3F9007F1076 /* Build configuration list for PBXNativeTarget "MtProtoKit iOS Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D05A834018AFB3F9007F1076 /* Debug */,
-				D05A834118AFB3F9007F1076 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D05A836A18AFB40C007F1076 /* Build configuration list for PBXNativeTarget "MtProtoKit OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D05A836B18AFB40C007F1076 /* Debug */,
 				D05A836C18AFB40C007F1076 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D05A836D18AFB40C007F1076 /* Build configuration list for PBXNativeTarget "MtProtoKit OSX Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D05A836E18AFB40C007F1076 /* Debug */,
-				D05A836F18AFB40C007F1076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
