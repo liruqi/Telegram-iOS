@@ -1710,13 +1710,6 @@
 			remoteGlobalIDString = D05A831418AFB3F9007F1076;
 			remoteInfo = "MtProtoKit iOS";
 		};
-		D05A84CF18AFE34F007F1076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05A84C318AFE34F007F1076 /* MtProtoKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D05A834718AFB40C007F1076;
-			remoteInfo = "MtProtoKit OSX";
-		};
 		D05A84D318AFE736007F1076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D05A84C318AFE34F007F1076 /* MtProtoKit.xcodeproj */;
@@ -7090,7 +7083,6 @@
 			isa = PBXGroup;
 			children = (
 				D05A84CC18AFE34F007F1076 /* MtProtoKit iOS.framework */,
-				D05A84D018AFE34F007F1076 /* MTProtoKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -10417,13 +10409,6 @@
 			remoteRef = D05A84CB18AFE34F007F1076 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D05A84D018AFE34F007F1076 /* MTProtoKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MTProtoKit.framework;
-			remoteRef = D05A84CF18AFE34F007F1076 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		D0A3F2FC195CA9EC009E0ACD /* libpop.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -12392,6 +12377,7 @@
 					"$(PROJECT_DIR)/thirdparty/ffmpeg/lib",
 					"$(PROJECT_DIR)/thirdparty/WebP.framework",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				"OTHER_CFLAGS[arch=*]" = "-Wextra";
 				OTHER_LDFLAGS = "-ObjC";
