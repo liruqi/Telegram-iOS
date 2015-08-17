@@ -22,7 +22,7 @@
 		<key>A50836191016C2E86DFE2E13535A22A4A756AE00</key>
 		<string>../../..</string>
 		<key>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</key>
-		<string>../../..Telegraph/thirdparty/pop/</string>
+		<string>../../..Telegraph/thirdparty/pop</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/liruqi/Telegram-iOS</string>

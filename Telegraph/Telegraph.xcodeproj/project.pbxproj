@@ -1710,26 +1710,12 @@
 			remoteGlobalIDString = D05A831418AFB3F9007F1076;
 			remoteInfo = "MtProtoKit iOS";
 		};
-		D05A84CD18AFE34F007F1076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05A84C318AFE34F007F1076 /* MtProtoKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D05A832718AFB3F9007F1076;
-			remoteInfo = "MtProtoKit iOS Tests";
-		};
 		D05A84CF18AFE34F007F1076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D05A84C318AFE34F007F1076 /* MtProtoKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D05A834718AFB40C007F1076;
 			remoteInfo = "MtProtoKit OSX";
-		};
-		D05A84D118AFE34F007F1076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05A84C318AFE34F007F1076 /* MtProtoKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D05A835C18AFB40C007F1076;
-			remoteInfo = "MtProtoKit OSX Tests";
 		};
 		D05A84D318AFE736007F1076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1744,27 +1730,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = EC191218162FB53A00E0CC76;
 			remoteInfo = pop;
-		};
-		D0A3F2FD195CA9EC009E0ACD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0A3F2F4195CA9EB009E0ACD /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EC68857F18C7B60000C6194C;
-			remoteInfo = "pop-osx";
-		};
-		D0A3F2FF195CA9EC009E0ACD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0A3F2F4195CA9EB009E0ACD /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ECF01ED318C92B7F009E0AD1;
-			remoteInfo = "pop-tests";
-		};
-		D0A3F301195CA9EC009E0ACD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0A3F2F4195CA9EB009E0ACD /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EC7E319918C93D6500B38170;
-			remoteInfo = "pop-tests-osx";
 		};
 		D0A3F303195CAA35009E0ACD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -7125,9 +7090,7 @@
 			isa = PBXGroup;
 			children = (
 				D05A84CC18AFE34F007F1076 /* MtProtoKit iOS.framework */,
-				D05A84CE18AFE34F007F1076 /* MtProtoKit iOS Tests.xctest */,
 				D05A84D018AFE34F007F1076 /* MTProtoKit.framework */,
-				D05A84D218AFE34F007F1076 /* MtProtoKit OSX Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -9406,9 +9369,6 @@
 			children = (
 				D0A3F2FC195CA9EC009E0ACD /* libpop.a */,
 				5593DA0D1B4E74CF00E100AF /* pop.framework */,
-				D0A3F2FE195CA9EC009E0ACD /* pop.framework */,
-				D0A3F300195CA9EC009E0ACD /* pop-tests.octest */,
-				D0A3F302195CA9EC009E0ACD /* pop-tests-osx.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -10395,7 +10355,7 @@
 				LastUpgradeCheck = 0460;
 				TargetAttributes = {
 					D08805AB156E8F3600311537 = {
-						DevelopmentTeam = C67CF9S4VU;
+						DevelopmentTeam = M54LAUT7S6;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 1;
@@ -10457,13 +10417,6 @@
 			remoteRef = D05A84CB18AFE34F007F1076 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D05A84CE18AFE34F007F1076 /* MtProtoKit iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "MtProtoKit iOS Tests.xctest";
-			remoteRef = D05A84CD18AFE34F007F1076 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		D05A84D018AFE34F007F1076 /* MTProtoKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -10471,39 +10424,11 @@
 			remoteRef = D05A84CF18AFE34F007F1076 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D05A84D218AFE34F007F1076 /* MtProtoKit OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "MtProtoKit OSX Tests.xctest";
-			remoteRef = D05A84D118AFE34F007F1076 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		D0A3F2FC195CA9EC009E0ACD /* libpop.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libpop.a;
 			remoteRef = D0A3F2FB195CA9EC009E0ACD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D0A3F2FE195CA9EC009E0ACD /* pop.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = pop.framework;
-			remoteRef = D0A3F2FD195CA9EC009E0ACD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D0A3F300195CA9EC009E0ACD /* pop-tests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "pop-tests.xctest";
-			remoteRef = D0A3F2FF195CA9EC009E0ACD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D0A3F302195CA9EC009E0ACD /* pop-tests-osx.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "pop-tests.xctest";
-			remoteRef = D0A3F301195CA9EC009E0ACD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -12424,8 +12349,8 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Peter Iakovlev (9J4EJ3F97G)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peter Iakovlev (9J4EJ3F97G)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -12471,7 +12396,7 @@
 				"OTHER_CFLAGS[arch=*]" = "-Wextra";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "49f00576-55c3-4c2c-88cd-a319f0985e4c";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49f00576-55c3-4c2c-88cd-a319f0985e4c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -12496,8 +12421,8 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TELEGRAM MESSENGER LLP";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -12544,7 +12469,7 @@
 				"OTHER_CFLAGS[arch=*]" = "-DNS_BLOCK_ASSERTIONS";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "7ec632a9-54cd-43ea-a76a-bc5f75dc1ca9";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7ec632a9-54cd-43ea-a76a-bc5f75dc1ca9";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

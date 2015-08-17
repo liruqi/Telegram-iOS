@@ -192,7 +192,6 @@
 		D063A2FA18B14AB500C65116 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D063A2F918B14AB500C65116 /* libcrypto.dylib */; };
 		D063A31A18B157F700C65116 /* MtProtoKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D063A31518B157F700C65116 /* MtProtoKit-Prefix.pch */; };
 		D063A31B18B157F700C65116 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D063A31718B157F700C65116 /* InfoPlist.strings */; };
-		D063A31C18B157F700C65116 /* MtProtoKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D063A31918B157F700C65116 /* MtProtoKit-Info.plist */; };
 		D063A31E18B158AE00C65116 /* MTProtoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D063A31D18B158AE00C65116 /* MTProtoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D063A31F18B158B500C65116 /* MTProtoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D063A31D18B158AE00C65116 /* MTProtoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D063A32A18B1618D00C65116 /* MTOutgoingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D063A32018B1618D00C65116 /* MTOutgoingMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1242,7 +1241,7 @@
 		D05A830A18AFB3F9007F1076 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Telegram;
 			};
 			buildConfigurationList = D05A830D18AFB3F9007F1076 /* Build configuration list for PBXProject "MtProtoKit" */;
@@ -1269,7 +1268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D063A31B18B157F700C65116 /* InfoPlist.strings in Resources */,
-				D063A31C18B157F700C65116 /* MtProtoKit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1497,7 +1495,6 @@
 		D05A833D18AFB3F9007F1076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1525,7 +1522,6 @@
 		D05A833E18AFB3F9007F1076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
